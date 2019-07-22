@@ -118,7 +118,8 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/
+mvnw
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -147,3 +148,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/java,maven,windows,intellij
+
+*.cmd
+.idea/
+*.iml
+HELP.md
+test/
+
